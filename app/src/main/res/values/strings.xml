@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">acme-explorer</string>
+
+    <string-array name="opciones_orden_precio">
+        <item>Sin ordenar</item>
+        <item>Precio: menor a mayor</item>
+        <item>Precio: mayor a menor</item>
+    </string-array>
+    <string-array name="valores_precio_min">
+        <item>Sin mínimo</item>
+        <item>100</item>
+        <item>300</item>
+        <item>400</item>
+        <item>500</item>
+        <item>800</item>
+        <item>900</item>
+        <item>1000</item>
+        <item>1500</item>
+        <item>2000</item>
+        <item>2500</item>
+    </string-array>
+
+    <string-array name="valores_precio_max">
+        <item>Sin máximo</item>
+        <item>100</item>
+        <item>300</item>
+        <item>400</item>
+        <item>500</item>
+        <item>800</item>
+        <item>900</item>
+        <item>1000</item>
+        <item>1500</item>
+        <item>2000</item>
+        <item>2500</item>
+    </string-array>
+</resources>
