@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "64124249441",
+    "project_id": "mastertm-d68a5",
+    "storage_bucket": "mastertm-d68a5.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:64124249441:android:4c154239756715fa6a5120",
+        "android_client_info": {
+          "package_name": "com.example.acme_explorer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "64124249441-qf9r25pek5nb6en7s8cfnlp5atc8hgf9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.acme_explorer",
+            "certificate_hash": "d19a1dfc662bee7576b2b7d18b907611fe98d189"
+          }
+        },
+        {
+          "client_id": "64124249441-1eauij1td84g5e9erusmo35iqneaunar.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBltRc28-VT80hCSgydrXuSJikBAJJti08"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "64124249441-1eauij1td84g5e9erusmo35iqneaunar.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

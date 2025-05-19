@@ -1,15 +1,21 @@
+# ⚙️ Archivos generados por Android Studio y Gradle
 *.iml
 .gradle
+/build
+/captures
+.externalNativeBuild
+.cxx
+
+# 🧠 Configuración específica del entorno local
 /local.properties
+
+# 💣 Configuración de Android Studio
 /.idea/caches
 /.idea/libraries
 /.idea/modules.xml
 /.idea/workspace.xml
 /.idea/navEditor.xml
 /.idea/assetWizardSettings.xml
+
+# 🍏 Archivos de sistema macOS
 .DS_Store
-/build
-/captures
-.externalNativeBuild
-.cxx
-local.properties

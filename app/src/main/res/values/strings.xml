@@ -1,5 +1,31 @@
 <resources>
     <string name="app_name">acme-explorer</string>
+    <string name="login_email_et_hint">Correo electrónico</string>
+    <string name="login_pass_et_hint">Contraseña</string>
+    <string name="login_button_mail_text">Acceder</string>
+    <string name="login_button_google_text">Acceso con Google</string>
+    <string name="login_button_register_text">Pulsa aqui para registrarte</string>
+    <string name="login_mail_error_1">El correo electrónico no puede estar vacío</string>
+    <string name="login_mail_error_2">La contraseña no puede estar vacía</string>
+    <string name="login_mail_access_error">Por favor verifique el usuario o la contraseña</string>
+    <string name="login_verified_mail_error">Aún no has validado tu cuenta ¿Quieres que te enviemos un correo de verficación?</string>
+    <string name="login_verified_mail_error_ok">Enviar correo</string>
+    <string name="login_verified_mail_error_sent">Hemos enviado un correo de verificación a tu dirección\n</string>
+    <string name="login_verified_mail_error_no_sent">No se ha podido enviar el correo de verificación a tu cuenta</string>
+    <string name="login_verified_mail_error_cancel">Cancelar</string>
+    <string name="login_google_play_services_error">Se requiere Google Play Services para continuar.</string>
+    <string name="login_download_gps">Descargar</string>
+    <string name="gps_download_url">https://play.google.com/store/apps/details?id=com.google.android.gms</string>
+    <string name="market_download_url">market://details?id=com.google.android.gms</string>
+    <string name="default_client_id">64124249441-1eauij1td84g5e9erusmo35iqneaunar.apps.googleusercontent.com</string>
+    <string name="login_pass_confirmation_et_hint">Introducir de nuevo la contraseña</string>
+    <string name="login_button_signup">Registrar usuario</string>
+    <string name="signup_error_pass">Contraseña invalida</string>
+    <string name="signup_error_user">La dirección de correo no es valida\n</string>
+    <string name="signup_error_pass_not_match">Las contraseñas no coinciden</string>
+    <string name="signup_created">El usuario se ha registrado correctamente</string>
+    <string name="signup_create_error">Error al crear usuario</string>
+
 
     <string-array name="opciones_orden_precio">
         <item>Sin ordenar</item>

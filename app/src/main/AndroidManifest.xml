@@ -4,6 +4,9 @@
     package="com.example.acme_explorer">
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
 
     <application
         android:allowBackup="true"
@@ -15,6 +18,17 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Acmeexplorer"
         tools:targetApi="31">
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".ui.SignupActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.LoginActivity"
+            android:exported="true" />
         <activity
             android:name=".ui.FilterActivity"
             android:exported="false" />
@@ -22,7 +36,7 @@
             android:name=".ui.DateActivity"
             android:exported="false" />
         <activity
-            android:name=".SplashActivity"
+            android:name=".ui.SplashActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -31,7 +45,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".MainActivity"
+            android:name=".ui.MainActivity"
             android:exported="true" />
         <activity
             android:name=".ui.ListadoActivity"
@@ -42,6 +56,15 @@
         <activity
             android:name=".ui.SeleccionadosActivity"
             android:exported="true" />
+        <activity android:name=".ui.ProfileActivity" />
+        <activity android:name=".ui.EditTripActivity" />
+        <activity
+            android:name=".ui.MapActivity"
+            android:exported="true" />
+        <activity android:name=".ui.PlacesActivity">
+        </activity>
+        <activity android:name=".ui.NewTripActivity">
+        </activity>
     </application>
 
 </manifest>

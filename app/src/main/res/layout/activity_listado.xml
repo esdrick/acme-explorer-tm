@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
-    tools:context=".MainActivity">
+    tools:context=".ui.MainActivity">
 
     <include
         layout="@layout/toolbar"
@@ -64,6 +64,15 @@
             android:contentDescription="Vista de columna"
             android:scaleType="centerInside"
             android:src="@android:drawable/ic_dialog_dialer" />
+
+        <Button
+            android:id="@+id/buttonCrearViaje"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Crear viaje"
+            android:layout_margin="16dp"
+            android:layout_gravity="end"
+            android:visibility="gone"/>
     </LinearLayout>
 
     <androidx.recyclerview.widget.RecyclerView
@@ -74,5 +83,17 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintBottom_toBottomOf="parent" />
+
+    <ImageButton
+        android:id="@+id/fabCrearViaje"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:src="@drawable/add"
+        android:background="@android:color/transparent"
+        android:contentDescription="Crear viaje"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

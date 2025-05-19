@@ -13,7 +13,7 @@
         android:layout_height="?attr/actionBarSize"
         app:title="Acme Explorer"
         app:titleTextColor="@color/white"
-        android:background="#1A72B8" />
+        android:background="@color/blue_app" />
 
 
 </LinearLayout>
